@@ -1,3 +1,6 @@
+import numpy as np 
+
+
 class Car:
     def __init__(self, speed):
         self.speed = speed
@@ -10,3 +13,11 @@ class Car:
             print("добавь газку!")
 
 car = Car(110)
+
+
+arr = np.array(
+    [[1,23,4],
+    [4,6,7],
+    [43,68,1]]
+)
+print(arr.shape)
