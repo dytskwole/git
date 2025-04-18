@@ -21,3 +21,6 @@ arr = np.array(
     [43,68,1]]
 )
 print(arr.shape)
+
+
+print("hello pyhon")
