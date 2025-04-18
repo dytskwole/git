@@ -24,3 +24,8 @@ print(arr.shape)
 
 
 print("hello pyhon")
+
+try:
+    print('Попробуем что-нибудь написать')
+except Exception as e:
+    print(f'Произошла ошибка: {e}')
