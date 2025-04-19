@@ -29,3 +29,8 @@ try:
     print('Попробуем что-нибудь написать')
 except Exception as e:
     print(f'Произошла ошибка: {e}')
+
+for i in range(4):
+    for j in range(4):
+        print("*", end="")
+    print()
